@@ -3,17 +3,17 @@
 
 
 
-![](E:\Mypaper\6-th\OurCode\Deep_Human_Dynamics_Prior\teaser.png)
+![](./teaser.png)
 
 *Figure 1: In the process of motion capture (mocap), some joints or even the whole human pose may be blocked by objects (e.g., table or stone) in the  environment, leading to the invisibility of the sensor.*
 
 Our model focuses on reconstructing the missing joints/frames in the raw motion capture (mocap) sequence.
 
-![](E:\Mypaper\6-th\OurCode\Deep_Human_Dynamics_Prior\model.png)
+![](./model.png)
 
 ​                                             *Figure 2: Model architecture, which is able to obtain the repaired sequence on a single sample.*
 
-![](E:\Mypaper\6-th\OurCode\Deep_Human_Dynamics_Prior\loss_figure.png)
+![](./loss_figure.png)
 
 ​                                                                                                       *Figure 3: Loss curve on 'walking' activity*
 
