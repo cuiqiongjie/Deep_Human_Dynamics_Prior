@@ -1,10 +1,23 @@
 
 ##  Code of the paper "Deep Human Dynamics Prior" in ACM MM 2021.
 
-<center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./loss_figure.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">Loss Curve on 'walking'</div> </center>
 
 
+![](E:\Mypaper\6-th\OurCode\Deep_Human_Dynamics_Prior\teaser.png)
 
+*Figure 1: In the process of motion capture (mocap), some joints or even the whole human pose may be blocked by objects (e.g., table or stone) in the  environment, leading to the invisibility of the sensor.*
+
+Our model focuses on reconstructing the missing joints/frames in the raw motion capture (mocap) sequence.
+
+![](E:\Mypaper\6-th\OurCode\Deep_Human_Dynamics_Prior\model.png)
+
+​                                             *Figure 2: Model architecture, which is able to obtain the repaired sequence on a single sample.*
+
+![](E:\Mypaper\6-th\OurCode\Deep_Human_Dynamics_Prior\loss_figure.png)
+
+​                                                                                                       *Figure 3: Loss curve on 'walking' activity*
+
+Citation using:
 
 ```latex
 @inproceedings{Cui_2021_DHDP,
